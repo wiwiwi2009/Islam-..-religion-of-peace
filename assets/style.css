@@ -1,0 +1,89 @@
+/* إعدادات عامة */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tajawal", sans-serif;
+  direction: rtl;
+  background-color: #ffffff;
+  color: #004d40;
+  line-height: 1.8;
+}
+
+/* رأس الصفحة */
+header {
+  background-color: #e0f2f1;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #a5d6a7;
+}
+
+header h1 {
+  margin: 0;
+  color: #2e7d32;
+  font-size: 32px;
+}
+
+/* روابط التنقل */
+nav {
+  background-color: #a5d6a7;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #004d40;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #1b5e20;
+  text-decoration: underline;
+}
+
+/* العناوين */
+h2 {
+  color: #00695c;
+  margin-top: 30px;
+  border-right: 4px solid #80cbc4;
+  padding-right: 10px;
+}
+
+/* القوائم */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f1f8e9;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-right: 5px solid #c0ca33;
+  border-radius: 6px;
+  color: #1a237e;
+}
+
+/* الفوتر */
+footer {
+  background-color: #e0f7fa;
+  color: #006064;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top: 2px solid #b2ebf2;
+  font-size: 14px;
+}
+
+/* للأجهزة الصغيرة */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+}
